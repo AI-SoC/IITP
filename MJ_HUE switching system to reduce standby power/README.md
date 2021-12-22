@@ -1,4 +1,4 @@
-##HUE switching system to reduce standby power
+## HUE switching system to reduce standby power
 
 Myeongjin Kang, Daejin Park 
 
