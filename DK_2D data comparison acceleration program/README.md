@@ -1,4 +1,4 @@
-#2D data comparison acceleration program
+# 2D data comparison acceleration program
 
 ## Program developer
 
