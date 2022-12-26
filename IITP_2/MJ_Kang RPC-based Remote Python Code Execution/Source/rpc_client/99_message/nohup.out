@@ -1,0 +1,12 @@
+sudo ./server
+1
+2
+3
+Delivered data is "123"
+Hey, delivered data is "123"
+make: *** [Makefile:26: run_server] Interrupt
+unable to register (MESSAGEPROG, MESSAGEVERS, udp).unable to register (MESSAGEPROG, MESSAGEVERS, udp).1
+2
+3
+Delivered data is "123"
+Hey, delivered data is "123"
