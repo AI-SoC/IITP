@@ -1,0 +1,8 @@
+make.exe: Entering directory `g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix'
+echo "make all"
+echo "make run"
+echo "make memcheck"
+echo "make memprof"
+echo "make clean"
+make.exe: Leaving directory `g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix'
+ 

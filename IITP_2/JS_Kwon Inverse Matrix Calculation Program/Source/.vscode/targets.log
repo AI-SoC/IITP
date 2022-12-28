@@ -1,0 +1,474 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ����ũ ����Ÿ���̽�, Thu Jul 14 17:45:00 2022
+�� ǥ��
+# ����
+
+# �ڵ�
+<D = $(patsubst %/,%,$(dir $<))
+# �ڵ�
+?F = $(notdir $?)
+# ȯ��
+CARBON_MEM_DISABLE = 1
+# ����ũ����
+MAKEFLAGS = Rrqp
+# ����ũ���� (from `makefile', line 14)
+TARGET = main
+# �ڵ�
+?D = $(patsubst %/,%,$(dir $?))
+# �ڵ�
+@D = $(patsubst %/,%,$(dir $@))
+# ȯ��
+HOMEDRIVE = C:
+# �ڵ�
+@F = $(notdir $@)
+# ����ũ���� (from `makefile', line 4)
+LDLIBS = 
+# �ڵ�
+^D = $(patsubst %/,%,$(dir $^))
+# ����ũ����
+CURDIR := g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix
+# �⺻��
+SHELL := sh.exe
+# ȯ��
+VIM = C:\Program Files (x86)\Vim
+# ȯ��
+WINDIR = C:\WINDOWS
+# ȯ��
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"26f3b44ea4f1e942cca002e9545643cc.ko","_translationsConfigFile":"C:\\Users\\JSKWON\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\tcf.json","_cacheRoot":"C:\\Users\\JSKWON\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\JSKWON\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\JSKWON\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\corrupted.info","_languagePackSupport":true}
+# ȯ��
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# ����ũ���� (from `makefile', line 2)
+CFLAGS = -Wall -g
+# ȯ��
+JAVA-HOME = C:\Program Files\Java\jdk-11.0.2
+# ȯ��
+GNUPLOT_LIB = C:\Program Files\gnuplot\demo;C:\Program Files\gnuplot\demo\games;C:\Program Files\gnuplot\share
+# ȯ��
+XILINXD_LICENSE_FILE = C:\Xilinx\Xilinx.lic
+# ȯ��
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# ����ũ���� (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# ȯ��
+TMP = C:\Users\JSKWON\AppData\Local\Temp
+# ����ũ���� (from `makefile', line 8)
+OBJ_DIR = ./obj
+# ȯ��
+PROGRAMW6432 = C:\Program Files
+# ����ũ���� (from `makefile', line 11)
+OBJS = $(SRCS:.c=.o)
+# ȯ��
+PROGRAMDATA = C:\ProgramData
+# ȯ��
+CDSROOT = C:\OrCAD\OrCAD_16.6_Lite
+# ȯ��
+VSCODE_CWD = G:\OneDrive - knu.ac.kr\PROJECT\2018-09-08_JSKWON\02_research_note\2022\2022-07-02_INV_MAT_C\02_SRC\0_inverse_matrix
+# ȯ��
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ImageMagick-7.0.7-Q16;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim82;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\curl\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\PSpice;C:\OrCAD\OrCAD_16.6_Lite\tools\Capture;C:\OrCAD\OrCAD_16.6_Lite\tools\bin;C:\OrCAD\OrCAD_16.6_Lite\OpenAccess\bin\win32\opt;C:\OrCAD\OrCAD_16.6_Lite\tools\fet\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin;C:\Program Files\GNU MCU Eclipse\QEMU\2.8.0-3-20180523-0703\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\usr\texlive\2018\bin\win32;C:\Program Files (x86)\Aspell\bin;C:\Javalib;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files (x86)\Java\jre1.8.0_191\bin;C:\Program Files\gnuplot\bin;C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader;C:\PROGRA~1\MATLAB\R2020b\runtime\win64;C:\PROGRA~1\MATLAB\R2020b\bin;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\Program Files\WinMerge;C:\Program Files\Microchip\xc8\v2.32\bin;C:\Program Files\dotnet\;C:\Program Files\Microchip\xc16\v1.70\bin;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\GNU Tools ARM Embedded\8 2018-q4-major\bin;C:\Users\JSKWON\AppData\Local\Microsoft\WindowsApps;C:\usr\texlive\2018\bin\win32;C:\MinGW\mingw64\bin;C:\Users\JSKWON\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Excamera Labs\I2CDriver;C:\Users\JSKWON\.dotnet\tools;C:\Infineon\LauncherService
+# ȯ��
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ȯ��
+PROCESSOR_ARCHITECTURE = x86
+# ȯ��
+ONEDRIVE = G:\OneDrive - knu.ac.kr
+# ȯ��
+USERPROFILE = C:\Users\JSKWON
+# ȯ��
+ALLUSERSPROFILE = C:\ProgramData
+# ȯ��
+NUMBER_OF_PROCESSORS = 8
+# ȯ��
+ELECTRON_RUN_AS_NODE = 1
+# ����ũ���� (from `makefile', line 3)
+LDFLAGS = -lm
+# �⺻��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �ڵ�
+%F = $(notdir $%)
+# ȯ��
+CLASSPATH = C:\Javalib\antlr-4.7.2-complete.jar;"%JAVA-HOME%\lib;.;";
+# ȯ��
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16936_NFLSQMIJOUVEMAID
+# ȯ��
+COMPUTERNAME = JSKWON
+# ȯ��
+PROGRAMFILES = C:\Program Files (x86)
+# ȯ��
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ȯ��
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ����ũ���� (from `makefile', line 6)
+INC_DIR = -I./inc
+# ȯ��
+USERNAME = JSKWON
+# ȯ��
+PUBLIC = C:\Users\Public
+# ȯ��
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ȯ��
+HOME = C:\SPB_Data
+# ȯ��
+VSCODE_CODE_CACHE_PATH = C:\Users\JSKWON\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# ȯ��
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# ȯ��
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ȯ��
+LOGONSERVER = \\JSKWON
+# ȯ��
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ȯ��
+USERDOMAIN = JSKWON
+# �⺻��
+MAKE = $(MAKE_COMMAND)
+# �⺻��
+MAKECMDGOALS := all
+# ����ũ���� (from `makefile', line 10)
+SRCS = $(notdir $(wildcard $(SRC_DIR)/*.c))
+# ����ũ���� (from `makefile', line 1)
+CC = gcc
+# ȯ��
+ONEDRIVECOMMERCIAL = G:\OneDrive - knu.ac.kr
+# �⺻��
+MAKE_VERSION := 3.81
+# ����ũ����
+.DEFAULT_GOAL := help
+# ȯ��
+ACTEL_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# ȯ��
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �ڵ�
+%D = $(patsubst %/,%,$(dir $%))
+# ȯ��
+LOCALAPPDATA = C:\Users\JSKWON\AppData\Local
+# ȯ��
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �⺻��
+MAKE_COMMAND := make.exe
+# ȯ��
+PROCESSOR_ARCHITEW6432 = AMD64
+# �⺻��
+.VARIABLES := 
+# ȯ��
+ALTERA_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# �ڵ�
+*F = $(notdir $*)
+# ȯ��
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+# ȯ��
+OS = Windows_NT
+# ȯ��
+VSCODE_IPC_HOOK = \\.\pipe\d9199805c5ff80e962dff97ecb8ccf98-1.69.0-main-sock
+# ȯ��
+HOMEPATH = \Users\JSKWON
+# ȯ��
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ȯ��
+PROMPT = $P$G
+# ȯ��
+MFLAGS = -Rrqp
+# �ڵ�
+*D = $(patsubst %/,%,$(dir $*))
+# ȯ��
+SYSTEMROOT = C:\WINDOWS
+# �ڵ�
++D = $(patsubst %/,%,$(dir $+))
+# �ڵ�
++F = $(notdir $+)
+# ȯ��
+APPDATA = C:\Users\JSKWON\AppData\Roaming
+# ȯ��
+__COMPAT_LAYER = DetectorsAppHealth
+# ȯ��
+TEMP = C:\Users\JSKWON\AppData\Local\Temp
+# ȯ��
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �⺻��
+MAKEFILES := 
+# ����ũ���� (from `makefile', line 7)
+SRC_DIR = ./src
+# �ڵ�
+<F = $(notdir $<)
+# ȯ��
+LC_ALL = C
+# ȯ��
+DAS_HOME = C:\Program Files\DAS64
+# �ڵ�
+^F = $(notdir $^)
+# �⺻��
+SUFFIXES := 
+# ȯ��
+SYSTEMDRIVE = C:
+# ȯ��
+SESSIONNAME = Console
+# ȯ��
+PROCESSOR_REVISION = 9e0c
+# ȯ��
+IFX_TOOLBOX_UUID = 
+ e2db5252-c316-34f7-88bf-669475708fdf
+# ȯ��
+MAKELEVEL := 0
+# ����ũ���� (from `makefile', line 12)
+OBJECTS = $(patsubst %.o,$(OBJ_DIR)/%.o,$(OBJS))
+# ȯ��
+LANG = C
+# ȯ��
+PROCESSOR_LEVEL = 6
+# ȯ��
+VSCODE_PID = 16936
+# ȯ��
+USERDOMAIN_ROAMINGPROFILE = JSKWON
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=13/147=9%
+
+# Pattern-specific Variable Values
+
+# ������ ���� ���� ������ �����ϴ�.
+
+# ���丮
+
+# C:\Javalib (Ű C:/Javalib, ����ð� 1553843704): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader (Ű C:/Program Files (x86)/Adobe/Acrobat Reader DC/Reader, ����ð� 1634869753): 4 ����, 0�� �Ұ���.
+# C:\MinGW\mingw64\bin (Ű C:/MinGW/mingw64/bin, ����ð� 1609432338): 61 ����, 0�� �Ұ���.
+# C:\usr\texlive\2018\bin\win32 (Ű C:/usr/texlive/2018/bin/win32, ����ð� 1552960309): 524 ����, 0�� �Ұ���.
+# C:\Program Files\curl\bin (Ű C:/Program Files/curl/bin, ����ð� 1547321568): 5 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (Ű C:/WINDOWS/System32/WindowsPowerShell/v1.0/, ����ð� 1602835134): 31 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\Wbem (Ű C:/WINDOWS/System32/Wbem, ����ð� 1656728686): 181 ����, 0�� �Ұ���.
+# . (Ű g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix, ����ð� 1657788298): 9 ����, 0�� �Ұ���.
+# C:\Users\JSKWON\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/JSKWON/AppData/Local/Microsoft/WindowsApps, ����ð� 1656334996): 24 ����, 0�� �Ұ���.
+# C:\Program Files\gnuplot\bin (Ű C:/Program Files/gnuplot/bin, ����ð� 1559537330): 65 ����, 0�� �Ұ���.
+# C:\Program Files\GNU MCU Eclipse\QEMU\2.8.0-3-20180523-0703\bin (Ű C:/Program Files/GNU MCU Eclipse/QEMU/2.8.0-3-20180523-0703/bin, ����ð� 1547553474): 22 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (Ű C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����ð� 1547219401): 10 ����, 0�� �Ұ���.
+# C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin (Ű C:/OrCAD/OrCAD_16.6_Lite/tools/pcb/bin, ����ð� 1547328062): 46 ����, 0�� �Ұ���.
+# C:\Infineon\LauncherService (Ű C:/Infineon/LauncherService, ����ð� 1644453873): 6 ����, 0�� �Ұ���.
+# C:\Program Files\TortoiseSVN\bin (Ű C:/Program Files/TortoiseSVN/bin, ����ð� 1606804223): 73 ����, 0�� �Ұ���.
+# C:\Program Files\dotnet\ (Ű C:/Program Files/dotnet/, ����ð� 1655287740): 11 ����, 0�� �Ұ���.
+# C:\OrCAD\OrCAD_16.6_Lite\tools\PSpice (Ű C:/OrCAD/OrCAD_16.6_Lite/tools/PSpice, ����ð� 1556709836): 51 ����, 0�� �Ұ���.
+# C:\Program Files\Java\jdk-11.0.2\bin (Ű C:/Program Files/Java/jdk-11.0.2/bin, ����ð� 1553841597): 123 ����, 0�� �Ұ���.
+# C:\PROGRA~1\MATLAB\R2020b\bin (Ű C:/PROGRA~1/MATLAB/R2020b/bin, ����ð� 1655344741): 19 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\GNU Tools ARM Embedded\8 2018-q4-major\bin (Ű C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/bin, ����ð� 1547443714): 34 ����, 0�� �Ұ���.
+# C:\MinGW\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files\ImageMagick-7.0.7-Q16 (Ű C:/Program Files/ImageMagick-7.0.7-Q16, ����ð� 1547441046): 66 ����, 0�� �Ұ���.
+# ./src (Ű g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix/src, ����ð� 1657788278): 6 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2020b\bin (Ű C:/Program Files/MATLAB/R2020b/bin, ����ð� 1655344741): 19 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\OpenSSH\: stat�� �� �� �������ϴ�.
+# C:\Program Files\PuTTY\ (Ű C:/Program Files/PuTTY/, ����ð� 1547315067): 12 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (Ű C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����ð� 1573026516): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Excamera Labs\I2CDriver (Ű C:/Program Files (x86)/Excamera Labs/I2CDriver, ����ð� 1602648813): 5 ����, 0�� �Ұ���.
+# C:\WINDOWS (Ű C:/WINDOWS, ����ð� 1596603594): 135 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Java\jre1.8.0_191\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files\Microchip\xc8\v2.32\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files\WinMerge (Ű C:/Program Files/WinMerge, ����ð� 1618552303): 22 ����, 0�� �Ұ���.
+# C:\Program Files\Microchip\xc16\v1.70\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files (x86)\Aspell\bin: stat�� �� �� �������ϴ�.
+# C:\Program Files (x86)\Vim\vim82 (Ű C:/Program Files (x86)/Vim/vim82, ����ð� 1610433649): 56 ����, 0�� �Ұ���.
+# C:\PROGRA~1\MATLAB\R2020b\runtime\win64 (Ű C:/PROGRA~1/MATLAB/R2020b/runtime/win64, ����ð� 1655344741): 9 ����, 0�� �Ұ���.
+# src (Ű g:/OneDrive - knu.ac.kr/PROJECT/2018-09-08_JSKWON/02_research_note/2022/2022-07-02_INV_MAT_C/02_SRC/0_inverse_matrix/src, ����ð� 1657788278): 6 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\dotnet\ (Ű C:/Program Files (x86)/dotnet/, ����ð� 1655287797): 8 ����, 0�� �Ұ���.
+# C:\OrCAD\OrCAD_16.6_Lite\tools\bin (Ű C:/OrCAD/OrCAD_16.6_Lite/tools/bin, ����ð� 1547328078): 198 ����, 0�� �Ұ���.
+# C:\WINDOWS\system32 (Ű C:/WINDOWS/system32, ����ð� 1657707164): 3430 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2020b\runtime\win64 (Ű C:/Program Files/MATLAB/R2020b/runtime/win64, ����ð� 1655344741): 9 ����, 0�� �Ұ���.
+# C:\Users\JSKWON\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/JSKWON/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1657590060): 4 ����, 0�� �Ұ���.
+# C:\OrCAD\OrCAD_16.6_Lite\tools\fet\bin (Ű C:/OrCAD/OrCAD_16.6_Lite/tools/fet/bin, ����ð� 1547328077): 15 ����, 0�� �Ұ���.
+# C:\Program Files\CMake\bin (Ű C:/Program Files/CMake/bin, ����ð� 1610418475): 7 ����, 0�� �Ұ���.
+# C:\OrCAD\OrCAD_16.6_Lite\OpenAccess\bin\win32\opt (Ű C:/OrCAD/OrCAD_16.6_Lite/OpenAccess/bin/win32/opt, ����ð� 1547328060): 60 ����, 0�� �Ұ���.
+# C:\Users\JSKWON\.dotnet\tools: stat�� �� �� �������ϴ�.
+# C:\OrCAD\OrCAD_16.6_Lite\tools\Capture (Ű C:/OrCAD/OrCAD_16.6_Lite/tools/Capture, ����ð� 1547328139): 83 ����, 0�� �Ұ���.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (Ű C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, ����ð� 1547219413): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1547317298): 13 ����, 0�� �Ұ���.
+
+# 5477 ����, 0�� impossibilities in 49 directories.
+
+# Implicit Rules
+
+obj/%.o: ./src/%.c
+#  ������ ���ɾ� (`makefile'����, 26��° ��):
+	$(CC) $(CFLAGS) $(INC_DIR) -c $< -o $@ -MD $(LDFLAGS)
+	
+
+# 1���� ������ ��Ģ, 0 (0.0%) �͹̳�.
+
+# ����
+
+all: main
+#  ������ Ÿ��.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ŵ� �ʿ䰡 ���� (-q ������).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Ÿ���� �ƴ�:
+src/eigen.c:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2022-07-14 16:32:52
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+memcheck:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 39��° ��):
+	valgrind  --leak-check=full --error-limit=no ./$(TARGET) data.txt
+	
+
+# Ÿ���� �ƴ�:
+main.c:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+.DEFAULT:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+obj/main.o: main.c
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 29��° ��):
+	$(CC) $(CFLAGS) $(INC_DIR) -c $< -o $@ -MD $(LDFLAGS)
+	
+
+# Ÿ���� �ƴ�:
+makefile:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2022-07-14 16:32:52
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+help:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 17��° ��):
+	@echo "make all"
+	@echo "make run"
+	@echo "make memcheck"
+	@echo "make memprof"
+	@echo "make clean"
+	
+
+# Ÿ���� �ƴ�:
+.SUFFIXES:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+run:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 35��° ��):
+	if [ -a log ]; then rm log; fi;
+	./$(TARGET) data.txt | tee log
+	
+
+clean:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 48��° ��):
+	rm -rf ./$(TARGET) ./obj/* massif.out.* log
+	
+
+main: obj/eigen.o obj/gauss_jordan.o obj/matrix.o obj/svd.o obj/main.o
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ŵ� �ʿ䰡 ���� (-q ������).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  ������ ���ɾ� (`makefile'����, 32��° ��):
+	$(CC) $(CFLAGS) $(OBJECTS) $(OBJ_DIR)/$(TARGET).o -o $(TARGET) $(LDFLAGS)
+	
+
+obj/eigen.o: src/eigen.c
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������/���� ���� ����: `eigen'
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ŵ� �ʿ䰡 ���� (-q ������).
+# �ڵ�
+# @ := obj/eigen.o
+# �ڵ�
+# % := 
+# �ڵ�
+# * := eigen
+# �ڵ�
+# + := src/eigen.c
+# �ڵ�
+# | := 
+# �ڵ�
+# < := src/eigen.c
+# �ڵ�
+# ^ := src/eigen.c
+# �ڵ�
+# ? := src/eigen.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  ������ ���ɾ� (`makefile'����, 26��° ��):
+	$(CC) $(CFLAGS) $(INC_DIR) -c $< -o $@ -MD $(LDFLAGS)
+	
+
+# Ÿ���� �ƴ�:
+obj/gauss_jordan.o:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+obj/svd.o:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+obj/matrix.o:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+memprof:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 43��° ��):
+	if [ -a massif.out.* ]; then rm massif.out.*; fi;
+	valgrind --tool=massif ./$(TARGET) data.txt
+	massif-visualizer massif.out.*
+	
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/39=0%
+# VPATH Ž�� ���
+
+# `vpath' Ž�� ��ΰ� ����.
+
+# �Ϲ����� (`VPATH' ����) Ž�� ��ΰ� ����.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# ����ũ ����Ÿ ���̽� ��ħ, Thu Jul 14 17:45:00 2022
+����
+ 
