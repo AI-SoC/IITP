@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>FlexLexer.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'FlexLexer::yy_flex_debug' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>FlexLexer::{ctor}</FUNCTION>
+    <DECORATED>??0FlexLexer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FlexLexer::yy_flex_debug</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>FlexLexer.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'FlexLexer::yylineno' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>FlexLexer::{ctor}</FUNCTION>
+    <DECORATED>??0FlexLexer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FlexLexer::yylineno</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>FlexLexer.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'FlexLexer::yyleng' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>FlexLexer::{ctor}</FUNCTION>
+    <DECORATED>??0FlexLexer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FlexLexer::yyleng</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>FlexLexer.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'FlexLexer::yytext' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>FlexLexer::{ctor}</FUNCTION>
+    <DECORATED>??0FlexLexer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FlexLexer::yytext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1506</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yy_get_next_buffer</FUNCTION>
+    <DECORATED>?yy_get_next_buffer@yyFlexLexer@@IEAAHXZ</DECORATED>
+    <FUNCLINE>1435</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1731</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>스위치 레이블 간에 주석 처리되지 않은 fallthrough입니다(es.78).</DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yyinput</FUNCTION>
+    <DECORATED>?yyinput@yyFlexLexer@@IEAAHXZ</DECORATED>
+    <FUNCLINE>1691</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1828</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'yy_buffer_stack'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yy_switch_to_buffer</FUNCTION>
+    <DECORATED>?yy_switch_to_buffer@yyFlexLexer@@UEAAXPEAUyy_buffer_state@@@Z</DECORATED>
+    <FUNCLINE>1807</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1816</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1817</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yy_buffer_stack'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1820</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 건너뛰기, ('&lt;분기 조건&gt;'이(가) false라고 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1828</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yy_buffer_stack'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1873</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'b'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yy_create_buffer</FUNCTION>
+    <DECORATED>?yy_create_buffer@yyFlexLexer@@UEAAPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>1864</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1867</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1869</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1870</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b'은(는) NULL일 수 있습니다. (이 분기 시작)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1871</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1873</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1878</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yy_create_buffer</FUNCTION>
+    <DECORATED>?yy_create_buffer@yyFlexLexer@@UEAAPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@H@Z</DECORATED>
+    <FUNCLINE>1864</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>1959</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'b'을(를) 역참조하고 있습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 1943을(를) 참조하십시오.</DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yy_init_buffer</FUNCTION>
+    <DECORATED>?yy_init_buffer@yyFlexLexer@@IEAAXPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>1932</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1936</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1938</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1943</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1945</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1951</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>1959</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_lexer.yy.cc</FILENAME>
+      <LINE>2025</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'yy_buffer_stack'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>yyFlexLexer::yypush_buffer_state</FUNCTION>
+    <DECORATED>?yypush_buffer_state@yyFlexLexer@@QEAAXPEAUyy_buffer_state@@@Z</DECORATED>
+    <FUNCLINE>2005</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>2008</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>2011</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>2014</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yy_buffer_stack'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>2023</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 건너뛰기, ('&lt;분기 조건&gt;'이(가) false라고 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+        <FILENAME>verilog_lexer.yy.cc</FILENAME>
+        <LINE>2025</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yy_buffer_stack'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_parser.tab.hh</FILENAME>
+      <LINE>701</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'verilog::VerilogParser::token::yytokentype'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>verilog::VerilogParser::basic_symbol&lt;verilog::VerilogParser::by_type&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$basic_symbol@Uby_type@VerilogParser@verilog@@@VerilogParser@verilog@@QEAA@W4yytokentype@token@12@AEBUConstant@2@AEBVlocation@2@@Z</DECORATED>
+    <FUNCLINE>701</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

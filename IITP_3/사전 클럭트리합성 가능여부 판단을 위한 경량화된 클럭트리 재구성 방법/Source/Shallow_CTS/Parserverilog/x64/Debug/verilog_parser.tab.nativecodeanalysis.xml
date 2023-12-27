@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_parser.tab.cc</FILENAME>
+      <LINE>500</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'verilog::VerilogParser::token::yytokentype'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>verilog::VerilogParser::by_type::{ctor}</FUNCTION>
+    <DECORATED>??0by_type@VerilogParser@verilog@@QEAA@W4yytokentype@token@12@@Z</DECORATED>
+    <FUNCLINE>500</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_parser.tab.cc</FILENAME>
+      <LINE>2413</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>verilog::VerilogParser::yy_reduce_print_</FUNCTION>
+    <DECORATED>?yy_reduce_print_@VerilogParser@verilog@@EEAAXH@Z</DECORATED>
+    <FUNCLINE>2404</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_data.hpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'verilog::Port::dir' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>verilog::Port::{ctor}</FUNCTION>
+    <DECORATED>??0Port@verilog@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>verilog::Port::dir</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

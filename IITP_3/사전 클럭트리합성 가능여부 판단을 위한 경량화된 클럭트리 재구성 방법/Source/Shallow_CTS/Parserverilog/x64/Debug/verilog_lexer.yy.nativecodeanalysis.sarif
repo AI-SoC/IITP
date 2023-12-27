@@ -1,0 +1,855 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "'FlexLexer::yy_flex_debug' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/FlexLexer.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 1,
+                  "endLine": 108,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FlexLexer::{ctor}",
+                  "decoratedName": "??0FlexLexer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "FlexLexer::yy_flex_debug"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "'FlexLexer::yylineno' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/FlexLexer.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 1,
+                  "endLine": 108,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FlexLexer::{ctor}",
+                  "decoratedName": "??0FlexLexer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "FlexLexer::yylineno"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "'FlexLexer::yyleng' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/FlexLexer.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 1,
+                  "endLine": 108,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FlexLexer::{ctor}",
+                  "decoratedName": "??0FlexLexer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "FlexLexer::yyleng"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "'FlexLexer::yytext' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/FlexLexer.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 1,
+                  "endLine": 108,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FlexLexer::{ctor}",
+                  "decoratedName": "??0FlexLexer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "FlexLexer::yytext"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1506,
+                  "startColumn": 22,
+                  "endLine": 1506,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yy_get_next_buffer",
+                  "decoratedName": "?yy_get_next_buffer@yyFlexLexer@@IEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "스위치 레이블 간에 주석 처리되지 않은 fallthrough입니다(es.78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1731,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yyinput",
+                  "decoratedName": "?yyinput@yyFlexLexer@@IEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "NULL 포인터 'yy_buffer_stack'을(를) 역참조하고 있습니다. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1828,
+                  "startColumn": 2,
+                  "endLine": 1828,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yy_switch_to_buffer",
+                  "decoratedName": "?yy_switch_to_buffer@yyFlexLexer@@UEAAXPEAUyy_buffer_state@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1816,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1817,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'yy_buffer_stack'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1820,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('<분기 조건>'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1828,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'yy_buffer_stack'이(가) 역참조되었지만 여전히 NULL일 수 있습니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "NULL 포인터 'b'을(를) 역참조하고 있습니다. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1873,
+                  "startColumn": 2,
+                  "endLine": 1873,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yy_create_buffer",
+                  "decoratedName": "?yy_create_buffer@yyFlexLexer@@UEAAPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1867,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1869,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1870,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'b'은(는) NULL일 수 있습니다. (이 분기 시작)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1871,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1873,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'b'이(가) 역참조되었지만 여전히 NULL일 수 있습니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1878,
+                  "startColumn": 48,
+                  "endLine": 1878,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yy_create_buffer",
+                  "decoratedName": "?yy_create_buffer@yyFlexLexer@@UEAAPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "NULL 포인터 'b'을(를) 역참조하고 있습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 1943을(를) 참조하십시오."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 1959,
+                  "startColumn": 2,
+                  "endLine": 1959,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yy_init_buffer",
+                  "decoratedName": "?yy_init_buffer@yyFlexLexer@@IEAAXPEAUyy_buffer_state@@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1936,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1938,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1943,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1945,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1951,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'b'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 1959,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'b'이(가) 역참조되었지만 여전히 NULL일 수 있습니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "NULL 포인터 'yy_buffer_stack'을(를) 역참조하고 있습니다. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                },
+                "region": {
+                  "startLine": 2025,
+                  "startColumn": 2,
+                  "endLine": 2025,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "yyFlexLexer::yypush_buffer_state",
+                  "decoratedName": "?yypush_buffer_state@yyFlexLexer@@QEAAXPEAUyy_buffer_state@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 2008,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 2011,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 2014,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'yy_buffer_stack'은(는) NULL일 수 있습니다. (이 분기 건너뛰기)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 2023,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('<분기 조건>'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+                          },
+                          "region": {
+                            "startLine": 2025,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'yy_buffer_stack'이(가) 역참조되었지만 여전히 NULL일 수 있습니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "열거형 형식 'verilog::VerilogParser::token::yytokentype'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_parser.tab.hh"
+                },
+                "region": {
+                  "startLine": 701,
+                  "startColumn": 7,
+                  "endLine": 701,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::{ctor}",
+                  "decoratedName": "??0?$basic_symbol@Uby_type@VerilogParser@verilog@@@VerilogParser@verilog@@QEAA@W4yytokentype@token@12@AEBUConstant@2@AEBVlocation@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7571B9CC0 -il C:\\Users\\gny00\\AppData\\Local\\Temp\\_CL_70a018cfast -typedil -f verilog_lexer.yy.cc -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -permissive- -Fox64\\Debug\\verilog_lexer.yy.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um -I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_parser.tab.hh"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0b15d3924fd8a769be166612e830c90a4f81292f2b7ae0f14d9569555b257307"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/sampleparser.h"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d7f36c4653e916b9e6b290e1c9e20b1a3e6471a25c7c90ad39c94b268c30cfee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_driver.hpp"
+          },
+          "hashes": {
+            "sha-256": "788e34f895ffbb03c705c959fa87abd15bdcd80118dc6d25d3b0f8fd9b652887"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_scanner.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa93d2e1f1619f658fa6923f1cfb011464d6f36cc0c00bdfa3e4e749598c6931"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/flexlexer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c2b8997807ad376a1bcc81c3317477c10ed36af8817d153b959a8afc6f82d27b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_data.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ac8e07fd0b5183beae9f69dbc795b3e101822c67a9c356cdf7d9b17473254259"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/location.hh"
+          },
+          "hashes": {
+            "sha-256": "0493d025366e751c4055135ffc2292fdce63aee20f83a18c9fdb9a28e7a59b0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0a4882fed291c550e941c721c217ebb1c6b6989babf9cb64b4bb5f4ecd4573e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_parser.tab.cc"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b16f0e794637f4216df6a3234c2d89e9a3ebdbb8ba93fafa07680f51cbabbdac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_lexer.yy.cc"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ff06b6a22f19126e19fb85c085164e72b1223fa2e26ef3a1424268e1d745ad3c"
+          }
+        }
+      ]
+    }
+  ]
+}

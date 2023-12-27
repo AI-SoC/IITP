@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+<<<<<<< .mine
+    <LocalDebuggerCommandArguments>picorv32_regs_synth.rtl.v</LocalDebuggerCommandArguments>
+||||||| .r490
+    <LocalDebuggerCommandArguments>picorv32.rtl.v</LocalDebuggerCommandArguments>
+=======
+    <LocalDebuggerCommandArguments>map9v3.rtl.v</LocalDebuggerCommandArguments>
+>>>>>>> .r492
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

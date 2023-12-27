@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gny00\OneDrive\바탕 화면\Parserverilog3\Parserverilog\</FILEPATH>
+      <FILENAME>verilog_parser.tab.hh</FILENAME>
+      <LINE>701</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'verilog::VerilogParser::token::yytokentype'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>verilog::VerilogParser::basic_symbol&lt;verilog::VerilogParser::by_type&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$basic_symbol@Uby_type@VerilogParser@verilog@@@VerilogParser@verilog@@QEAA@W4yytokentype@token@12@AEBUConstant@2@AEBVlocation@2@@Z</DECORATED>
+    <FUNCLINE>701</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

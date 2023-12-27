@@ -1,0 +1,229 @@
+﻿  main.cpp
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(777,9): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(768,1): message : 클래스 템플릿 멤버 함수 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'을(를) 컴파일하는 중입니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(763,15): message : 컴파일되는 함수 템플릿 인스턴스화 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'에 대한 참조를 확인하세요.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(917,5): message : 컴파일되는 클래스 템플릿 인스턴스화 'verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>'에 대한 참조를 확인하세요.
+  ot_parser.cpp
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(567,19): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(637,38): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(702,14): warning C4805: '==': 연산에 'int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(929,26): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(938,54): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(951,18): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(956,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(966,41): warning C4244: '+=': 'double'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(976,18): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(981,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(991,41): warning C4244: '+=': 'double'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1001,18): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1006,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1015,41): warning C4244: '+=': 'double'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1378,51): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1757,12): warning C4244: '초기화 중': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1762,15): warning C4244: '초기화 중': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1776,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1777,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1778,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1780,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1782,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1783,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1785,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1786,43): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1787,43): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1789,43): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1790,43): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1791,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1793,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1794,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1795,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1796,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1800,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1802,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1804,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1806,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1807,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1809,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1810,42): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1812,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1813,40): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1815,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1816,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1820,41): warning C4305: '초기화 중': 'double'에서 '_Ty'(으)로 잘립니다.
+          with
+          [
+              _Ty=float
+          ]
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(777,9): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(768,1): message : 클래스 템플릿 멤버 함수 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'을(를) 컴파일하는 중입니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(763,15): message : 컴파일되는 함수 템플릿 인스턴스화 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'에 대한 참조를 확인하세요.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(917,5): message : 컴파일되는 클래스 템플릿 인스턴스화 'verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>'에 대한 참조를 확인하세요.
+  verilog_lexer.yy.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(49,1): warning C4005: 'INT8_MIN': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(84,1): message : 'INT8_MIN'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(50,1): warning C4005: 'INT16_MIN': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(87,1): message : 'INT16_MIN'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(51,1): warning C4005: 'INT32_MIN': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(90,1): message : 'INT32_MIN'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(53,1): warning C4005: 'INT8_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(93,1): message : 'INT8_MAX'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(54,1): warning C4005: 'INT16_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(96,1): message : 'INT16_MAX'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(55,1): warning C4005: 'INT32_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(99,1): message : 'INT32_MAX'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(57,1): warning C4005: 'UINT8_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(102,1): message : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(58,1): warning C4005: 'UINT16_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(105,1): message : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(59,1): warning C4005: 'UINT32_MAX': 매크로 재정의
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(108,1): message : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_lexer.yy.cc(1413,21): warning C4244: 'return': 'std::streamsize'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(777,9): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(768,1): message : 클래스 템플릿 멤버 함수 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'을(를) 컴파일하는 중입니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(763,15): message : 컴파일되는 함수 템플릿 인스턴스화 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'에 대한 참조를 확인하세요.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(917,5): message : 컴파일되는 클래스 템플릿 인스턴스화 'verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>'에 대한 참조를 확인하세요.
+  verilog_parser.tab.cc
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.cc(996,43): warning C4244: 'return': 'const short'에서 'verilog::VerilogParser::state_type'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(777,9): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(768,1): message : 클래스 템플릿 멤버 함수 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'을(를) 컴파일하는 중입니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.cc(1901,24): message : 컴파일되는 함수 템플릿 인스턴스화 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'에 대한 참조를 확인하세요.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(917,5): message : 컴파일되는 클래스 템플릿 인스턴스화 'verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>'에 대한 참조를 확인하세요.
+  ot_parser.h
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(777,9): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(768,1): message : 클래스 템플릿 멤버 함수 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'을(를) 컴파일하는 중입니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(763,15): message : 컴파일되는 함수 템플릿 인스턴스화 'void verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::clear(void)'에 대한 참조를 확인하세요.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\verilog_parser.tab.hh(917,5): message : 컴파일되는 클래스 템플릿 인스턴스화 'verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>'에 대한 참조를 확인하세요.
+  코드를 생성하고 있습니다...
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(282): warning C4715: 'OpenTimerParser::get_clock_input_Gate': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(260): warning C4715: 'OpenTimerParser::get_output_Gate': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1054): warning C4715: 'OpenTimerParser::buffer_getinput': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\ot_parser.cpp(1503): warning C4715: 'OpenTimerParser::isD_DFF': 모든 제어 경로에서 값을 반환하지는 않습니다.
+x64\Debug\ot_parser.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  Parserverilog.vcxproj -> D:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\x64\Debug\Parserverilog.exe

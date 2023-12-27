@@ -1,0 +1,127 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "열거형 형식 'verilog::VerilogParser::token::yytokentype'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_parser.tab.hh"
+                },
+                "region": {
+                  "startLine": 701,
+                  "startColumn": 7,
+                  "endLine": 701,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "verilog::VerilogParser::basic_symbol<verilog::VerilogParser::by_type>::{ctor}",
+                  "decoratedName": "??0?$basic_symbol@Uby_type@VerilogParser@verilog@@@VerilogParser@verilog@@QEAA@W4yytokentype@token@12@AEBUConstant@2@AEBVlocation@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7571B9CC0 -il C:\\Users\\gny00\\AppData\\Local\\Temp\\_CL_e003f4b4ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -permissive- -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um -I C:\\Users\\gny00\\OneDrive\\바탕 화면\\Parserverilog3\\Parserverilog\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/gny00/OneDrive/바탕 화면/Parserverilog3/Parserverilog/verilog_parser.tab.hh"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0b15d3924fd8a769be166612e830c90a4f81292f2b7ae0f14d9569555b257307"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/sampleparser.h"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d7f36c4653e916b9e6b290e1c9e20b1a3e6471a25c7c90ad39c94b268c30cfee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_driver.hpp"
+          },
+          "hashes": {
+            "sha-256": "788e34f895ffbb03c705c959fa87abd15bdcd80118dc6d25d3b0f8fd9b652887"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_scanner.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa93d2e1f1619f658fa6923f1cfb011464d6f36cc0c00bdfa3e4e749598c6931"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/flexlexer.h"
+          },
+          "hashes": {
+            "sha-256": "c2b8997807ad376a1bcc81c3317477c10ed36af8817d153b959a8afc6f82d27b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/verilog_data.hpp"
+          },
+          "hashes": {
+            "sha-256": "ac8e07fd0b5183beae9f69dbc795b3e101822c67a9c356cdf7d9b17473254259"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/location.hh"
+          },
+          "hashes": {
+            "sha-256": "0493d025366e751c4055135ffc2292fdce63aee20f83a18c9fdb9a28e7a59b0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gny00/onedrive/바탕 화면/parserverilog3/parserverilog/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0a4882fed291c550e941c721c217ebb1c6b6989babf9cb64b4bb5f4ecd4573e0"
+          }
+        }
+      ]
+    }
+  ]
+}

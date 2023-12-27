@@ -1,0 +1,587 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26800",
+          "message": {
+            "text": "개체에서 이동됨 사용: ''net'' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 25,
+                  "endLine": 97,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OpenTimerParser::add_instance",
+                  "decoratedName": "?add_instance@OpenTimerParser@@EEAAX$$QEAUInstance@verilog@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26800",
+          "message": {
+            "text": "개체에서 이동됨 사용: ''pin'' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 25,
+                  "endLine": 97,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OpenTimerParser::add_instance",
+                  "decoratedName": "?add_instance@OpenTimerParser@@EEAAX$$QEAUInstance@verilog@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "초기화되지 않은 메모리 'index'을(를) 사용하고 있습니다."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                },
+                "region": {
+                  "startLine": 940,
+                  "startColumn": 31,
+                  "endLine": 940,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OpenTimerParser::Clockpath_Bufferinsertion",
+                  "decoratedName": "?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 922,
+                            "startColumn": 141
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 923,
+                            "startColumn": 87
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 923,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 923,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 923,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 924,
+                            "startColumn": 84
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 924,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 924,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 926,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 928,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 928,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 930,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 930,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 932,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'index'이(가) 초기화되지 않았습니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 933,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 934,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('<분기 조건>'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 936,
+                            "startColumn": 67
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('<분기 조건>'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                          },
+                          "region": {
+                            "startLine": 940,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'index'이(가) 사용되는데 초기화되지 않았을 수 있습니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                },
+                "region": {
+                  "startLine": 960,
+                  "startColumn": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OpenTimerParser::Clockpath_Bufferinsertion",
+                  "decoratedName": "?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+                },
+                "region": {
+                  "startLine": 996,
+                  "startColumn": 21,
+                  "endLine": 996,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OpenTimerParser::Clockpath_Bufferinsertion",
+                  "decoratedName": "?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/SVN/2021-12-08_NYKWON/02_research_note/2023/(2023-01-31) JN_ACCESS_nykwon 소스/src/Parserverilog11/Parserverilog/ot_parser.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6b760ef35fd5a58e5d8e40620e38c68fdf6e960c6301a0f03f469b20a69fe071"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/ot_parser.h"
+          },
+          "hashes": {
+            "sha-256": "6b0683146681eda867e06ec51b34686dcd84d73a427b74cd53527916b866a014"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/verilog_driver.hpp"
+          },
+          "hashes": {
+            "sha-256": "85841a087b2af2ca02a1791a878edaafde28faa957a2cbef9d6d2504bb838d7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/verilog_scanner.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa93d2e1f1619f658fa6923f1cfb011464d6f36cc0c00bdfa3e4e749598c6931"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/flexlexer.h"
+          },
+          "hashes": {
+            "sha-256": "c2b8997807ad376a1bcc81c3317477c10ed36af8817d153b959a8afc6f82d27b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/verilog_parser.tab.hh"
+          },
+          "hashes": {
+            "sha-256": "0b15d3924fd8a769be166612e830c90a4f81292f2b7ae0f14d9569555b257307"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/verilog_data.hpp"
+          },
+          "hashes": {
+            "sha-256": "7c0370f0698bc94d97b59e70eb34bacdfd64a08b51f6d2424fa1b409c4ed01ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/location.hh"
+          },
+          "hashes": {
+            "sha-256": "0493d025366e751c4055135ffc2292fdce63aee20f83a18c9fdb9a28e7a59b0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/svn/2021-12-08_nykwon/02_research_note/2023/(2023-01-31) jn_access_nykwon 소스/src/parserverilog11/parserverilog/stdlibrary_tsmc180.h"
+          },
+          "hashes": {
+            "sha-256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+      <FILENAME>ot_parser.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26800</DEFECTCODE>
+    <DESCRIPTION>개체에서 이동됨 사용: ''net'' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>OpenTimerParser::add_instance</FUNCTION>
+    <DECORATED>?add_instance@OpenTimerParser@@EEAAX$$QEAUInstance@verilog@@@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+      <FILENAME>ot_parser.cpp</FILENAME>
+      <LINE>940</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>초기화되지 않은 메모리 'index'을(를) 사용하고 있습니다.</DESCRIPTION>
+    <FUNCTION>OpenTimerParser::Clockpath_Bufferinsertion</FUNCTION>
+    <DECORATED>?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ</DECORATED>
+    <FUNCLINE>920</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>922</LINE>
+        <COLUMN>140</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>923</LINE>
+        <COLUMN>86</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>923</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>923</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>923</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>924</LINE>
+        <COLUMN>83</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>924</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>924</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>926</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>928</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>928</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>930</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>930</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>932</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'index'이(가) 초기화되지 않았습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>933</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>934</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 건너뛰기, ('&lt;분기 조건&gt;'이(가) false라고 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>936</LINE>
+        <COLUMN>66</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 건너뛰기, ('&lt;분기 조건&gt;'이(가) false라고 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>940</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+        <FILENAME>ot_parser.cpp</FILENAME>
+        <LINE>940</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'index'이(가) 사용되는데 초기화되지 않았을 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+      <FILENAME>ot_parser.cpp</FILENAME>
+      <LINE>960</LINE>
+      <COLUMN>84</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>OpenTimerParser::Clockpath_Bufferinsertion</FUNCTION>
+    <DECORATED>?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ</DECORATED>
+    <FUNCLINE>920</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\SVN\2021-12-08_NYKWON\02_research_note\2023\(2023-01-31) JN_ACCESS_nykwon 소스\src\Parserverilog11\Parserverilog\</FILEPATH>
+      <FILENAME>ot_parser.cpp</FILENAME>
+      <LINE>996</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>OpenTimerParser::Clockpath_Bufferinsertion</FUNCTION>
+    <DECORATED>?Clockpath_Bufferinsertion@OpenTimerParser@@AEAA?AV?$vector@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@V?$allocator@V?$vector@UGate@@V?$allocator@UGate@@@std@@@std@@@2@@std@@XZ</DECORATED>
+    <FUNCLINE>920</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
